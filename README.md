@@ -1,8 +1,55 @@
+# OSP Brokers
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
 
-First, run the development server:
+First, clone the repository:
+
+```bash
+git clone <https://github.com/neon-lab-dev/OSP-Brokers-Client>
+```
+
+### Branch Naming Convention
+
+- **Production branch:** `master`
+- **Development branch:** `develop`
+- Create a new branch for each feature with the following type prefixes (Mind the casing):
+
+Types are as follows:
+- `feature` - For new features
+- `hotfix` - For urgent fixes
+- `bugfix` - For bug fixes
+- `release` - For preparing releases
+- `docs` - For documentation
+
+**Examples:**
+- `feature/user-authentication`
+- `hotfix/ticket-no-description`
+
+### Commit Message Convention
+
+Specify the type of the commit as a prefix followed by the commit message.
+
+Types are as follows:
+- `feat` - New features
+- `fix` - Bug fixes
+- `docs` - Documentation updates
+- `test` - Testing related changes
+- `perf` - Performance improvements
+- `chore` - Miscellaneous changes
+- `refactor` - Code refactoring
+
+**Examples:**
+```bash
+git commit -m "feat: add user authentication feature"
+git commit -m "fix: resolve login bug"
+git commit -m "docs: update README file"
+```
+
+## Development
+
+Run the development server:
 
 ```bash
 npm run dev
@@ -18,7 +65,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font).
 
 ## Learn More
 
@@ -31,6 +78,6 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 ## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme).
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
