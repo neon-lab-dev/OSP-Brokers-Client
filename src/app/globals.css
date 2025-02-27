@@ -4,5 +4,23 @@
     --font-Poppins: "Poppins", "serif";
     --font-Montserrat: "Montserrat", "serif";
 
-    --color-primary-10: #FF6B81;
+    --color-black: #000;
+    
+    --color-primary-10: #24439B;
+
+    --color-secondary-10: #D49823;
+
+    --color-neutral-10: #333;
+    --color-neutral-15: #121212;
+    --color-neutral-20: #696677;
+    --color-neutral-25: #9b92ad;
+
+    --color-neutral-light-10: #EBE6DC;
+
+    /* Shadow */
+    --shadow-custom: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+
+    /* Gradients */
+    --bg-gradient-primary: linear-gradient(180deg, #24439B 0%, #0A72B2 100%);
+    --bg-gradient-secondary: linear-gradient(180deg, #E81515 0%, #E98718 100%);
   }
