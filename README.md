@@ -7,13 +7,12 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 First, clone the repository:
 
 ```bash
-git clone <https://github.com/neon-lab-dev/OSP-Brokers-Client>
+git clone https://github.com/neon-lab-dev/OSP-Brokers-Client
 ```
 
 ### Branch Naming Convention
 
-- **Production branch:** `master`
-- **Development branch:** `develop`
+- **Production branch:** `main`
 - Create a new branch for each feature with the following type prefixes (Mind the casing):
 
 Types are as follows:
