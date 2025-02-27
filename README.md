@@ -21,6 +21,7 @@ Types are as follows:
 - `bugfix` - For bug fixes
 - `release` - For preparing releases
 - `docs` - For documentation
+- `ui` - For UI
 
 **Examples:**
 - `feature/user-authentication`
