@@ -95,6 +95,25 @@ const getGradientClass = (badge: string) => {
   }
 };
 
+const getTitleColor = (badge: string) => {
+  switch (badge.toLowerCase()) {
+    case "free":
+      return "text-white";
+    case "bronze":
+      return "text-white";
+    case "silver":
+      return "text-[#F2F2F2]";
+    case "gold":
+      return "text-[#D49823]";
+    case "platinum":
+      return "text-[#25B4DC]";
+    case "diamond":
+      return "text-[#6DD8E4]";
+    default:
+      return "text-white";
+  }
+};
+
 const MembershipCard: React.FC<MembershipCardProps> = ({
   title,
   price,
@@ -134,7 +153,9 @@ const MembershipCard: React.FC<MembershipCardProps> = ({
           </div>
 
           <div className="flex flex-col gap-3 ">
-            <h3 className="text-xl font-bold">{title}</h3>
+            <h3 className={`text-xl font-bold ${getTitleColor(badge)} `}>
+              {title}
+            </h3>
             <p className="text-gray-300 text-sm ">{description}</p>
 
             <ul className="text-gray-300 text-sm space-y-1">
