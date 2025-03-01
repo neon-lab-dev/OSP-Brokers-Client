@@ -59,3 +59,29 @@
   --bg-gradient-primary: linear-gradient(180deg, #24439b 0%, #0a72b2 100%);
   --bg-gradient-secondary: linear-gradient(180deg, #e81515 0%, #e98718 100%);
 }
+
+.gradient-border-t-b {
+  border-inline-start: 1px solid;
+  border-inline-end: 1px solid;
+  border-block-start: 0px solid;
+  border-image-source: linear-gradient(
+    to bottom,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0.11)
+  );
+  border-image-slice: 1;
+}
+
+.gradient-border-b-t {
+  border-inline-start: 1px solid;
+  border-inline-end: 1px solid;
+  border-block-start: 0px solid;
+  border-block-end: 0px solid;
+
+  border-image-source: linear-gradient(
+    to top,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0.11)
+  );
+  border-image-slice: 1;
+}
